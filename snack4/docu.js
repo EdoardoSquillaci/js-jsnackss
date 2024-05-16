@@ -7,8 +7,9 @@ let richiesta = prompt('Inserisci il tuo nome')
 
 if(invitati.includes(richiesta)){
 
-    console.log('puoi venire alla festa')
+    window.alert('puoi venire alla festa')
 
 } else {
- console.log('Non puoi entrare alla festa')
+
+ window.alert('Non puoi entrare alla festa')
 }
